@@ -1,5 +1,5 @@
 sequenceDiagram
-    participant User
+    Actor User
     participant Browser
     participant Server
 
