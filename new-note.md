@@ -1,8 +1,10 @@
+```mermaid
 sequenceDiagram
     participant user
     participant browser
     participant server
     
+
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
@@ -26,3 +28,4 @@ sequenceDiagram
     deactivate server    
 
     Note right of browser: The browser executes the callback function that renders the notes 
+    ```
